@@ -2,8 +2,10 @@
 #define RAYCASTING_H
 
 #include <SDL2/SDL.h>
+#include<iostream>
 
-void initialize_map(int map[8][8]);
+voi dinitialize_map(int map[8][8]);
+rt DISPLAY=:0
 void draw_vertical_line(SDL_Renderer *renderer, int x, int drawStart,
 	int drawEnd, int side);
 void draw_scene(SDL_Renderer *renderer);
