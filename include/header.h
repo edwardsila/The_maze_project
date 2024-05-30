@@ -7,7 +7,7 @@
 #include <limits.h>
 #include <stdio.h>
 #include <stdbool.h>
-/*#include "upng.h"*/
+#include "upng.h"
 
 
 /* Constants */
@@ -35,6 +35,7 @@
 #define MAP_NUM_COLS 20
 
 #define NUM_TEXTURES 8
+
 
 typedef uint32_t color_t;
 
