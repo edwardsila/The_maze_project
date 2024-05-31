@@ -20,12 +20,8 @@ $ chmod 755 install_SDL2.sh
 $ sudo ./install_SDL2.sh
 ```
 
-## Start the Game
-Alternatively, just use the make command:
-After running `./maze maps/level_1` you should see a screen like this:
-
 ## Play the Game
 The goal of the game is to find the end of the maze. To move through the maze use the arrow keys. The left and right arrow keys will rotate the player. The up and down arrow keys will move the player forward or backward.
 
-## Author :black_nib:
+## Author :
 * Edward sila
