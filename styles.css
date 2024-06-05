@@ -5,26 +5,118 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: url('path-to-your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 header {
-    background: #333;
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.intro {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+.intro button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.intro button:hover {
+    background: #3ea1ff;
+}
+
 main {
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 section {
     margin-bottom: 20px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-h1, h2 {
-    color: #333;
+h2 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
 }
 
 p, ul {
@@ -32,7 +124,7 @@ p, ul {
 }
 
 footer {
-    background: #333;
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -42,3 +134,6 @@ a {
     color: #1e90ff;
 }
 
+a:hover {
+    color: #3ea1ff;
+}
