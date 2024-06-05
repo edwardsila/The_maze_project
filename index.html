@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Maze Project</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Maze Project</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<h1>The Maze Project</h1>
-		<p>Experience the thrill of navigating through a 3D maze game!</p>
-	</header>
-    
-	<main>
-		<section id="about">
-		<h2>About the Project</h2>
-		<p>This project involves creating a 3D maze game using raycasting and SDL2. The game includes features such as collision detection, texture mapping, and user interaction for movement and rotation.</p>
-		</section>
-        
-		<section id="features">
-		<h2>Features</h2>
-		<ul>
-			<li>3D Raycasting Engine</li>
-			<li>Dynamic Camera Movement</li>
-			<li>Collision Detection</li>
-			<li>Texture Mapping</li>
-			<li>Interactive User Controls</li>
-		</ul>
-		</section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <img src="cover-image.jpg" alt="The Maze Project Cover Image">
+            <h1>The Maze Project</h1>
+            <p>Experience the thrill of navigating through a 3D maze game!</p>
+            <button onclick="window.location.href='path-to-deployed-project'">Play Now</button>
+        </div>
+    </header>
 
-		<section id="progress">
-		<h2>Project Progress</h2>
-		<p>I am actively working on enhancing the game. Here is the latest status:</p>
-		<ul>
-			<li>Walls rendering: Complete</li>
-			<li>Orientation colors: Complete</li>
-			<li>Camera rotation: Complete</li>
-			<li>Player movement: Complete</li>
-			<li>Collision handling: In Progress</li>
-			<li>Map parser: Not Started</li>
-			<li>Textures and Enemies: Not Started</li>
-		</ul>
-		</section>
-        
-		<section id="contact">
-		<h2>Contact</h2>
-		<p>For any inquiries or feedback, please reach out via <a href="mailto:edwardsila000@gmail.com">email</a>.</p>
-		</section>
-	</main>
-    
-	<footer>
-		<p>&copy; 2024 The Maze Project. All rights reserved.</p>
-	</footer>
-    
-	<script src="script.js"></script>
+    <main>
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="feature1.jpg" alt="Feature 1 Image">
+                <h3>3D Raycasting Engine</h3>
+                <p>Our game features a powerful 3D raycasting engine that renders the maze environment in real-time, providing an immersive experience.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.jpg" alt="Feature 2 Image">
+                <h3>Dynamic Camera Movement</h3>
+                <p>Navigate the maze with smooth and responsive camera controls, enhancing your gameplay experience.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.jpg" alt="Feature 3 Image">
+                <h3>Collision Detection</h3>
+                <p>Enjoy a realistic gaming experience with accurate collision detection that prevents walking through walls.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About the Project</h2>
+            <p>This project was inspired by classic 3D games and a passion for game development. The idea was to create an engaging and visually appealing game that combines the challenge of a maze with the excitement of real-time rendering.</p>
+            <p>The project is part of my portfolio for Holberton School, showcasing my skills in software development and game design.</p>
+            <ul>
+                <li><a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+                <li><a href="https://twitter.com/your-profile" target="_blank">Twitter</a></li>
+            </ul>
+            <p>Check out the <a href="https://github.com/your-repo" target="_blank">GitHub repository</a> for this project.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Maze Project. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
