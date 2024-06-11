@@ -1,27 +1,33 @@
-# The Maze Project 👨‍🎓 
+# The Maze Project
 
+## Introduction
+Welcome to The Maze Project! This is a 3D maze game inspired by my love for gaming and the challenge of navigating intricate labyrinths. This project is a testament to my skills in game development, featuring advanced raycasting techniques to render a dynamic and engaging maze experience.
 
-This project is a first person `3D` maze game. Similar to Wolfenstein or Doom, minus enemies and weapons, although they may be added later. It was made using `SDL2` and `C`. It runs on Mac OS X and Linux/Ubuntu. The game uses the technique raycasting to create the apparent `3D` nature of the maze. The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world! 
+- **Deployed Site:** `[The Maze Project Live](https://www.youtube.com/watch?v=sQRoT_skfa8&ab_channel=EdwardSila)`
+- **Project Blog Article:** `[Read the Blog](https://www.linkedin.com/pulse/imagine-trying-find-your-way-through-lines-code-created-edward-sila-qloff)`
+- **Author's LinkedIn:** `[My LinkedIn Profile](https://www.linkedin.com/in/edward-sila-a8a262242/)`
 
-The Maze was written  in C using `SDL2` library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
+## Installation
+To run the Maze Project locally, follow these steps:
 
-### About SDL2 💻
-Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/the-maze-project.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd the-maze-project
+    ```
 
-## Requirements to Play
-- Mac OS X or Linux/Ubuntu
-- SDL2
+## Usage
+Upon launching the game, use the arrow keys or WASD to navigate through the maze. Your objective is to find the exit. Enjoy the thrill of exploration and challenge yourself to complete the maze in the shortest time possible.
 
-If you don't have SDL2 installed download the installation script <a href="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/graphics_programming/install_SDL2.sh">here</a>. Then find the script and run it in your terminal:
-```groovy
-$ ls
-install_SDL2.sh
-$ chmod 755 install_SDL2.sh
-$ sudo ./install_SDL2.sh
-```
+## Contributing
+Contributions are welcome! If you have ideas for improvements or new features, please open an issue or submit a pull request. Let's make this project even better together.
 
-## Play the Game
-The goal of the game is to find the end of the maze. To move through the maze use the arrow keys. The left and right arrow keys will rotate the player. The up and down arrow keys will move the player forward or backward.
+## Related Projects
+- [Monty](https://github.com/edwardsila/monty.git)
+- [simple shell](https://github.com/edwardsila/simple_shell.git)
 
-## Author :
-* Edward sila
+## Licensing
+This project is licensed under the MIT License. See the LICENSE file for more details.
