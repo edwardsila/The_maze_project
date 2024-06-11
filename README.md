@@ -50,5 +50,8 @@ Contributions are welcome! If you have ideas for improvements or new features, p
 - [Monty](https://github.com/edwardsila/monty.git)
 - [simple shell](https://github.com/edwardsila/simple_shell.git)
 
+## The maze
+![Maze Project Screenshot](assets/the maze3.png)
+
 ## Licensing
 This project is licensed under the MIT License. See the LICENSE file for more details.
