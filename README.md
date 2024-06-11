@@ -3,12 +3,12 @@
 ## Introduction
 Welcome to The Maze Project! This is a 3D maze game inspired by my love for gaming and the challenge of navigating intricate labyrinths. This project is a testament to my skills in game development, featuring advanced raycasting techniques to render a dynamic and engaging maze experience.
 
-- **Deployed Site:** `[The Maze Project Live](https://www.youtube.com/watch?v=sQRoT_skfa8&ab_channel=EdwardSila)`
-- **Project Blog Article:** `[Read the Blog](https://www.linkedin.com/pulse/imagine-trying-find-your-way-through-lines-code-created-edward-sila-qloff)`
-- **Author's LinkedIn:** `[My LinkedIn Profile](https://www.linkedin.com/in/edward-sila-a8a262242/)`
+- **Deployed Site:** [The Maze Project Live](https://www.youtube.com/watch?v=sQRoT_skfa8&ab_channel=EdwardSila).
+- **Project Blog Article:** [Read the Blog](https://www.linkedin.com/pulse/imagine-trying-find-your-way-through-lines-code-created-edward-sila-qloff).
+- **Author's LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/edward-sila-a8a262242/).
 
 
-###setting up SDL2
+### setting up SDL2
 Before installing the Maze Project, you need to set up SDL2. Follow these steps:
 
 1. **Windows:**
