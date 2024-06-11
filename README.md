@@ -51,7 +51,7 @@ Contributions are welcome! If you have ideas for improvements or new features, p
 - [simple shell](https://github.com/edwardsila/simple_shell.git)
 
 ## The maze
-![Maze Project Screenshot](assets/the maze3.png)
+[![The Maze Demo](https://www.youtube.com/watch?v=sQRoT_skfa8&ab_channel=EdwardSila)]
 
 ## Licensing
 This project is licensed under the MIT License. See the LICENSE file for more details.
